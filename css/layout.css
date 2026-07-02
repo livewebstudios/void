@@ -23,6 +23,8 @@ header.site{
   font-family:var(--font-slab);font-size:30px;text-decoration:none;line-height:1;
   color:var(--ink);text-shadow:2.5px 2.5px 0 var(--red);letter-spacing:.02em;
 }
+/* header logo fills the cart-burst height (52px) so the header itself never grows */
+header.site .wordmark{font-size:52px;text-shadow:4px 4px 0 var(--red)}
 header.site nav{display:flex;gap:22px;align-items:center}
 nav a.navlink{
   font-family:var(--font-display);font-size:21px;letter-spacing:.05em;
