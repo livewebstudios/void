@@ -1,0 +1,7 @@
+# OS + editor cruft — never part of the live site
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
