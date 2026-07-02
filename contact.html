@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Singular Jigsaw — VÖID</title>
-<meta name="description" content="One piece! 1000% completion in seconds! The moment you open it is the moment you have won!">
-<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>The VÖID Bullpen — VÖID</title>
+<meta name="description" content="Contact the VÖID bullpen. Produced by Live Web Studios. Every other role: Jon Wolf.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bangers&family=Comic+Neue:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
 </head>
 <body>
 
@@ -224,15 +224,16 @@
 </defs>
 </svg>
 
+
 <div class="demo-bar">Demo store — no real orders are processed</div>
 
 <header class="site">
-  <a class="wordmark" href="../index.html" aria-label="VÖID home">VÖID</a>
+  <a class="wordmark" href="index.html" aria-label="VÖID home">VÖID</a>
   <nav aria-label="Primary">
-    <a class="navlink" href="../index.html">Home</a>
-    <a class="navlink" href="../shop.html" aria-current="page">The Wonders</a>
-    <a class="navlink" href="../about.html">The Legend</a>
-    <a class="cart-burst" id="cartBtn" href="../cart.html" aria-label="Cart, 0 items">
+    <a class="navlink" href="index.html">Home</a>
+    <a class="navlink" href="shop.html">The Wonders</a>
+    <a class="navlink" href="about.html">The Legend</a>
+    <a class="cart-burst" id="cartBtn" href="cart.html" aria-label="Cart, 0 items">
       <svg viewBox="0 0 128 128" aria-hidden="true"><use href="#burst12"/></svg>
       <span class="count" id="cartCount">0</span>
     </a>
@@ -240,107 +241,57 @@
 </header>
 
 <main>
-<div class="crumbs shell">
-  <a class="crumb" href="../shop.html">The Wonders</a>
-  <a class="crumb" href="../shop.html">Dept: Ironic Simplicity</a>
-  <span class="crumb here">The Singular Jigsaw</span>
-</div>
+<section>
+  <div class="shell bullpen">
+    <span class="sec-caption">Transmissions to the edge of the observable universe</span>
+    <h1 class="page-title misreg">The VÖID Bullpen!</h1>
+    <p class="sub">The devoted hands behind the nothing! Every wonder you see was imagined, drawn, engineered, and dressed by the finest bullpen ever assembled. All of him.</p>
 
-<section class="product">
-  <div class="p-art reveal">
-    <div class="dots-lite"></div>
-    <svg viewBox="0 0 200 160" role="img" aria-label="The Singular Jigsaw"><use href="#d-singular-jigsaw"/></svg>
-    <svg class="stamp" viewBox="0 0 140 140" role="img" aria-label="Certified Exquisitely Pointless"><use href="#void-stamp"/></svg>
-  </div>
-
-  <div class="p-info">
-    <h1 class="misreg">The Singular Jigsaw</h1>
-    <svg class="p-price" viewBox="0 0 128 128" role="img" aria-label="Price 95 dollars">
-      <use href="#burst12"/><text x="64" y="77" text-anchor="middle" font-size="34">$95</text>
-    </svg>
-    <p class="p-copy">One piece! One <strong>glorious</strong> piece! Open the box and the picture is complete before your very eyes. Frame it at once, champion, for you have <strong>already won!</strong></p>
-    <div class="buy-row">
-      <div class="qty" role="group" aria-label="Quantity">
-        <button id="qMinus" aria-label="Decrease quantity">−</button>
-        <span class="num" id="qNum" aria-live="polite">1</span>
-        <button id="qPlus" aria-label="Increase quantity">+</button>
+    <div class="credits reveal">
+      <svg class="stamp" viewBox="0 0 140 140" aria-hidden="true"><use href="#void-stamp"/></svg>
+      <div class="credit-row">
+        <span class="role">Produced by</span>
+        <span class="who"><a href="https://livewebstudios.com" target="_blank" rel="noopener">Live Web Studios</a></span>
       </div>
-      <button class="btn red add" id="addBtn" data-slug="singular-jigsaw" data-name="The Singular Jigsaw" data-dept="Ironic Simplicity" data-price="95">Rush Me Mine!</button>
+      <div class="credit-row">
+        <span class="role">Concept Art</span>
+        <span class="who">Jon Wolf</span>
+      </div>
+      <div class="credit-row">
+        <span class="role">Head Artist</span>
+        <span class="who">Jon Wolf</span>
+      </div>
+      <div class="credit-row">
+        <span class="role">Chief Programmer</span>
+        <span class="who">Jon Wolf</span>
+      </div>
+      <div class="credit-row">
+        <span class="role">Costume and Character Design</span>
+        <span class="who">Jon Wolf</span>
+      </div>
+      <div class="credit-row">
+        <span class="role">Email</span>
+        <span class="who"><a href="mailto:jonwolf@livewebstudios.com">jonwolf@livewebstudios.com</a></span>
+      </div>
     </div>
-    <p class="ship-line">★ Shipped across the void — free! Arrives in 5–7 business days.</p>
-  </div>
-</section>
 
-<section class="spec-sec">
-  <div class="spec-panel reveal">
-    <svg class="boom boom-spec" viewBox="0 0 240 190" aria-hidden="true">
-      <use href="#jag" fill="#D63426" stroke="#1A161B" stroke-width="6" stroke-linejoin="round"/>
-      <g transform="translate(38.4 30.4) scale(.68)">
-        <use href="#jag" fill="#F7C824"/>
-        <use href="#jag" fill="url(#pat-dots-ink)" opacity=".14"/>
-      </g>
-      <text x="120" y="112" text-anchor="middle" font-size="56" fill="#FFFDF2" stroke="#1A161B" stroke-width="8" paint-order="stroke" transform="rotate(-6 120 95)">ZERO!</text>
-    </svg>
-    <span class="sec-caption">Technical marvels &amp; measurements</span>
-    <table class="specs">
-      <tr><th>Functions</th><td>0</td></tr>
-      <tr><th>Pieces</th><td>1</td></tr>
-      <tr><th>Assembly time</th><td>0 seconds!</td></tr>
-      <tr><th>Completion</th><td>1000%!</td></tr>
-      <tr><th>Edge pieces</th><td>Also 1</td></tr>
-      <tr><th>Point of origin</th><td>The edge of the observable universe</td></tr>
-      <tr><th>Certificate no.</th><td>0000-000-000</td></tr>
-    </table>
-  </div>
-</section>
-
-<section class="aside-sec">
-  <div class="null-aside reveal">
-    <div class="city-strip" aria-hidden="true">
-      <svg class="sky far" viewBox="0 0 1200 240" preserveAspectRatio="xMidYMax slice" style="transform:translateX(-70px) scaleX(1.08);transform-origin:bottom center"><use href="#skyline" fill="#1F4784"/></svg>
-      <svg class="sky near" viewBox="0 0 1200 240" preserveAspectRatio="xMidYMax slice"><use href="#skyline" fill="#1F4784"/><use href="#skyline-lights" opacity=".5"/></svg>
+    <p class="bullpen-note">The bullpen thanks you for your patronage. The bullpen is one man. The bullpen is enough.</p>
+    <div class="bullpen-cta">
+      <a class="btn red" href="mailto:jonwolf@livewebstudios.com">Wire the Bullpen!</a>
     </div>
-    <div class="fig">
-      <svg viewBox="270 100 290 300" aria-hidden="true"><use href="#cap-null"/></svg>
-    </div>
-    <div class="say">
-      <div class="bubble">&ldquo;The greatest puzzle, citizen, is <strong>no puzzle at all!</strong>&rdquo;</div>
-      <p class="who">— Captain Null, The Man of Nothing</p>
-    </div>
-  </div>
-</section>
-
-<section class="rel-sec">
-  <h2 class="misreg">More Astounding Wonders!</h2>
-  <div class="cards">
-    <article class="card reveal">
-      <a class="art" href="monochrome-cube.html" aria-label="The Monochrome Cube, full details"><div class="dots-lite"></div><svg viewBox="0 0 200 160" aria-hidden="true"><use href="#d-monochrome-cube"/></svg></a>
-      <h3><a href="monochrome-cube.html">The Monochrome Cube</a></h3>
-      <span class="p">$180</span>
-    </article>
-    <article class="card reveal">
-      <a class="art" href="deck-of-agreement.html" aria-label="The Deck of Agreement, full details"><div class="dots-lite"></div><svg viewBox="0 0 200 160" aria-hidden="true"><use href="#d-deck-of-agreement"/></svg></a>
-      <h3><a href="deck-of-agreement.html">The Deck of Agreement</a></h3>
-      <span class="p">$140</span>
-    </article>
-    <article class="card reveal">
-      <a class="art" href="do-nothing-button.html" aria-label="The Do Nothing Button, full details"><div class="dots-lite"></div><svg viewBox="0 0 200 160" aria-hidden="true"><use href="#d-do-nothing-button"/></svg></a>
-      <h3><a href="do-nothing-button.html">The Do Nothing Button</a></h3>
-      <span class="p">$240</span>
-    </article>
   </div>
 </section>
 </main>
 
 <footer class="site">
   <div class="foot-grid">
-    <a class="wordmark" href="../index.html" aria-label="VÖID home">VÖID</a>
+    <a class="wordmark" href="index.html" aria-label="VÖID home">VÖID</a>
     <nav class="foot-nav" aria-label="Footer">
-      <a href="../index.html">Home</a>
-      <a href="../shop.html">The Wonders</a>
-      <a href="../about.html">The Legend</a>
-      <a href="../about.html#code-authority">The Code Authority</a>
-      <a href="../contact.html">The Bullpen</a>
+      <a href="index.html">Home</a>
+      <a href="shop.html">The Wonders</a>
+      <a href="about.html">The Legend</a>
+      <a href="about.html#code-authority">The Code Authority</a>
+      <a href="contact.html">The Bullpen</a>
     </nav>
     <svg class="foot-stamp" role="img" aria-label="VÖID Code Authority seal"><use href="#void-stamp"/></svg>
   </div>
@@ -352,7 +303,7 @@
 </footer>
 
 <div class="toast" id="toast" role="status" aria-live="polite">Acquired!</div>
-<script src="../js/motion.js"></script>
-<script src="../js/cart.js"></script>
+<script src="js/motion.js"></script>
+<script src="js/cart.js"></script>
 </body>
 </html>
