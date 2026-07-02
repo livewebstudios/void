@@ -1,0 +1,203 @@
+/* ==========================================================================
+   FOUR-COLOR VÖID — layout.css
+   Demo bar, header, footer, page bands, and the page-level grids.
+   Extracted from the root mockups; merged superset across all four pages.
+   ========================================================================== */
+
+/* ============ UTILITY DEMO BAR (out-of-world, on purpose) ============ */
+.demo-bar{
+  background:var(--ink);color:var(--newsprint);
+  font:600 11px/1 var(--font-body);letter-spacing:.14em;text-transform:uppercase;
+  text-align:center;padding:7px 12px;
+}
+
+/* ============ HEADER ============ */
+header.site{
+  position:sticky;top:0;z-index:50;
+  background:var(--newsprint);
+  border-bottom:4px solid var(--ink);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:10px 20px;gap:16px;
+}
+.wordmark{
+  font-family:var(--font-slab);font-size:30px;text-decoration:none;line-height:1;
+  color:var(--ink);text-shadow:2.5px 2.5px 0 var(--red);letter-spacing:.02em;
+}
+header.site nav{display:flex;gap:22px;align-items:center}
+nav a.navlink{
+  font-family:var(--font-display);font-size:21px;letter-spacing:.05em;
+  text-decoration:none;color:var(--ink);
+}
+nav a.navlink:hover,nav a.navlink[aria-current]{color:var(--red)}
+.cart-burst{
+  position:relative;width:52px;height:52px;border:none;background:none;
+  cursor:pointer;display:block;text-decoration:none;
+}
+.cart-burst svg{width:100%;height:100%}
+.cart-burst .count{
+  position:absolute;inset:0;display:grid;place-items:center;
+  font-family:var(--font-display);font-size:20px;color:#fff;pointer-events:none;
+  padding-bottom:2px;
+}
+.cart-burst.bump{animation:bump .35s cubic-bezier(.2,1.6,.4,1)}
+@keyframes bump{0%{transform:scale(1)}40%{transform:scale(1.35) rotate(-6deg)}100%{transform:scale(1)}}
+
+/* ============ BLUE PAGE BAND (shop / about) ============ */
+.band{
+  position:relative;background:var(--blue);border-bottom:6px solid var(--ink);
+  padding:56px 20px 130px;overflow:hidden;
+}
+.band::before{
+  content:"";position:absolute;inset:0;
+  background-image:radial-gradient(rgba(26,22,27,.3) 1.4px,transparent 1.6px);
+  background-size:22px 22px;pointer-events:none;
+}
+.band .shell{position:relative;z-index:2}
+.band h1.page-title{
+  font-size:clamp(46px,7vw,84px);margin:0;
+  color:var(--newsprint);text-shadow:4px 4px 0 var(--ink);
+}
+.band .sub{
+  font:700 15px/1.5 var(--font-caption);text-transform:uppercase;letter-spacing:.04em;
+  color:var(--newsprint);margin-top:10px;max-width:640px;
+}
+
+/* ============ THE COVER (homepage hero) ============ */
+.cover-wrap{padding:18px}
+.cover{
+  position:relative;overflow:hidden;
+  background:var(--blue);
+  border:6px solid var(--ink);
+  box-shadow:8px 8px 0 var(--ink);
+  min-height:640px;
+}
+.cover::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(220px 160px at 0% 0%,rgba(26,22,27,.18),transparent 70%),
+    radial-gradient(260px 180px at 100% 100%,rgba(26,22,27,.2),transparent 70%),
+    linear-gradient(115deg,transparent 49.6%,rgba(26,22,27,.07) 50%,transparent 50.5%);
+}
+.cover .layer{position:absolute;inset:-12%;pointer-events:none;will-change:transform}
+.cover .layer.a{background-image:radial-gradient(rgba(243,233,198,.14) 1.5px,transparent 1.7px);background-size:16px 16px}
+.cover .layer.b{background-image:radial-gradient(rgba(26,22,27,.28) 1.4px,transparent 1.6px);background-size:26px 26px}
+.cover-grid{
+  position:relative;z-index:2;
+  display:grid;grid-template-columns:minmax(320px,1.05fr) minmax(300px,1fr);
+  gap:8px;align-items:center;
+  padding:64px 34px 96px;max-width:1200px;margin:0 auto;
+}
+
+/* ============ SECTION GRIDS (homepage) ============ */
+.props{background:var(--newsprint)}
+.props .shell{position:relative}
+.props-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px;margin-top:8px}
+
+.offers{background:var(--blue);border-top:6px solid var(--ink);border-bottom:6px solid var(--ink);position:relative;padding-bottom:150px}
+.offers .dots-bg{position:absolute;inset:0;background-image:radial-gradient(rgba(26,22,27,.3) 1.4px,transparent 1.6px);background-size:22px 22px;pointer-events:none}
+.offers .shell{position:relative;z-index:2}
+.offers h2.sec-title{color:var(--newsprint);text-shadow:3px 3px 0 var(--ink)}
+.offers .sec-sub{color:var(--newsprint)}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px;margin-top:34px}
+
+.origin{background:var(--newsprint)}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px;margin-top:30px}
+
+.coupon-sec{background:var(--newsprint)}
+
+/* ============ SHOP: filter row + grid ============ */
+.filter-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;padding:26px 20px 6px;max-width:1160px;margin:0 auto}
+.grid-wrap{padding:22px 20px 72px}
+.grid-wrap .cards{grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:34px;max-width:1160px;margin:0 auto}
+
+/* ============ PRODUCT PAGE ============ */
+.crumbs{padding:24px 20px 0}
+.product{
+  display:grid;grid-template-columns:minmax(320px,1fr) minmax(320px,1fr);
+  gap:44px;padding:28px 20px 56px;max-width:1160px;margin:0 auto;align-items:start;
+}
+.spec-sec{padding:10px 20px 56px}
+.aside-sec{padding:10px 20px 56px}
+.rel-sec{padding:10px 20px 72px}
+.rel-sec h2{
+  font-family:var(--font-display);font-weight:400;
+  font-size:clamp(32px,4.6vw,52px);letter-spacing:.02em;line-height:1;
+  max-width:1160px;margin:0 auto 24px;
+}
+.rel-sec .cards{max-width:1160px;margin:0 auto}
+
+/* ============ FUNNEL PAGES (cart / checkout / confirmation) ============ */
+.funnel-main{padding:0 20px 72px}
+.funnel-main .shell{max-width:1080px}
+
+.steps{display:flex;gap:14px;flex-wrap:wrap;max-width:1080px;margin:28px auto 10px}
+.step{
+  flex:1;min-width:180px;background:var(--newsprint-lift);border:4px solid var(--ink);
+  box-shadow:4px 4px 0 var(--ink);padding:10px 14px 9px;display:flex;gap:12px;align-items:center;
+}
+.step .n{font-family:var(--font-slab);font-size:22px;line-height:1;color:var(--ink)}
+.step .t{font:700 13px/1.2 var(--font-caption);letter-spacing:.08em;text-transform:uppercase}
+.step[aria-current="step"]{background:var(--red);color:#fff}
+.step[aria-current="step"] .n{color:var(--yellow)}
+.step.done{background:var(--yellow)}
+
+.view{max-width:1080px;margin:0 auto}
+
+.cart-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:34px;align-items:start;margin-top:22px}
+.lines{display:flex;flex-direction:column;gap:22px}
+
+.checkout-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:34px;align-items:start;margin-top:26px}
+
+/* ============ ABOUT: CODE AUTHORITY SECTION (blue, reuses .offers skin) ============ */
+.auth-grid{display:grid;grid-template-columns:230px 1fr;gap:34px;align-items:center;margin-top:26px}
+.auth-grid .big-stamp{width:100%;max-width:230px}
+.auth-copy p{
+  font:700 15px/1.6 var(--font-caption);text-transform:uppercase;letter-spacing:.04em;
+  color:var(--newsprint);max-width:640px;margin-bottom:14px;
+}
+.auth-copy .btn{margin-top:8px}
+@media(max-width:900px){
+  .auth-grid{grid-template-columns:1fr;justify-items:start}
+}
+
+/* ============ FOOTER ============ */
+footer.site{background:var(--ink);color:var(--newsprint);padding:48px 20px 26px}
+.foot-grid{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;gap:34px;align-items:center}
+.foot-grid .wordmark{color:var(--newsprint);text-shadow:2.5px 2.5px 0 var(--red)}
+.foot-nav{display:flex;gap:22px;flex-wrap:wrap;justify-content:center}
+.foot-nav a{font-family:var(--font-display);font-size:19px;letter-spacing:.05em;text-decoration:none;color:var(--newsprint)}
+.foot-nav a:hover{color:var(--yellow)}
+.foot-stamp{width:96px;height:96px}
+.indicia{
+  max-width:1160px;margin:34px auto 0;border-top:2px solid rgba(243,233,198,.3);
+  padding-top:18px;font:400 12px/1.7 var(--font-body);color:rgba(243,233,198,.85);
+}
+.indicia .demo-line{margin-top:8px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--yellow)}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:980px){
+  .cover-grid{grid-template-columns:1fr;padding-top:132px;text-align:left}
+  .hero-art{width:min(100%,460px)}
+  .bubble::before,.bubble::after{display:none}
+  .foot-grid{grid-template-columns:1fr;justify-items:center;text-align:center}
+}
+@media(max-width:900px){
+  .product{grid-template-columns:1fr}
+  .null-aside{grid-template-columns:1fr}
+  .null-aside .bubble::before,.null-aside .bubble::after{display:none}
+  .cart-grid,.checkout-grid{grid-template-columns:1fr}
+  .tally{position:static}
+  .confirm-aside{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  nav a.navlink{display:none}
+  section{padding:48px 14px}
+  .offers{padding-bottom:120px}
+  .band{padding-bottom:110px}
+  .coupon form{grid-template-columns:1fr}
+  .showing{margin-left:0;width:100%}
+  .fields{grid-template-columns:1fr}
+  .line{grid-template-columns:72px 1fr}
+  .line .right{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center}
+}

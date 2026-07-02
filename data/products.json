@@ -1,0 +1,251 @@
+{
+  "categories": {
+    "anti": "Anti-Productivity",
+    "ironic": "Ironic Simplicity",
+    "over": "Overengineered",
+    "fake": "Fake Luxury / Fake Tech"
+  },
+  "products": [
+    {
+      "slug": "do-nothing-button",
+      "name": "The Do Nothing Button",
+      "price": 240,
+      "cat": "anti",
+      "catName": "Anti-Productivity",
+      "symbol": "d-do-nothing-button",
+      "blurb": "One button! Zero functions! Press it in an emergency — there will be no emergencies!",
+      "description": "At last! A button for the modern citizen who has pressed enough! Mount it anywhere and marvel: depressing it initiates <strong>nothing</strong>, releasing it concludes <strong>nothing!</strong> There will be no emergencies!",
+      "specs": [
+        ["Functions", "0"],
+        ["Buttons", "1"],
+        ["Emergencies to date", "None"],
+        ["Activation result", "Nothing, instantly"],
+        ["Material", "Machined aluminum on a solid plinth"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "I pressed it for a century, citizen. <strong>Nothing!</strong> It works perfectly."
+    },
+    {
+      "slug": "the-loading-bar",
+      "name": "The Loading Bar",
+      "price": 310,
+      "cat": "anti",
+      "catName": "Anti-Productivity",
+      "symbol": "d-the-loading-bar",
+      "blurb": "Holds at 94% — forever! The task that can never disappoint you by finishing! Owners report profound calm!",
+      "description": "Behold the bar that science cannot finish! It holds at <strong>94%</strong> today, tomorrow, and forever! Hang it in the parlor and enjoy the one task that will never disappoint you by ending!",
+      "specs": [
+        ["Functions", "0"],
+        ["Progress", "94%, eternally"],
+        ["Estimated completion", "Never!"],
+        ["Frame", "Anodized, museum-grade"],
+        ["Diodes", "1, devoted"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "Ninety-four percent, citizen! The final six belong to <strong>no man!</strong>"
+    },
+    {
+      "slug": "yesterday-clock",
+      "name": "The Yesterday Clock",
+      "price": 420,
+      "cat": "anti",
+      "catName": "Anti-Productivity",
+      "symbol": "d-yesterday-clock",
+      "blurb": "Tells the time — yesterday! Accurate to the minute, one day late! Punctuality, freed from the present!",
+      "description": "The timepiece of tomorrow tells the time of <strong>yesterday!</strong> Every glance reveals, with total accuracy, what time it was this hour one day ago. You can never be late again, citizen, because you already were!",
+      "specs": [
+        ["Functions", "0"],
+        ["Accuracy", "Perfect, 24 hours late"],
+        ["Hands", "2, both committed"],
+        ["Punctuality", "Guaranteed, retroactively"],
+        ["Movement", "Swiss, unhurried"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "I consult it every morning, citizen, to learn what yesterday held. <strong>Astonishing!</strong>"
+    },
+    {
+      "slug": "monochrome-cube",
+      "name": "The Monochrome Cube",
+      "price": 180,
+      "cat": "ironic",
+      "catName": "Ironic Simplicity",
+      "symbol": "d-monochrome-cube",
+      "blurb": "Every face the same! Arrives solved — stays solved! 100% completion, guaranteed!",
+      "description": "The puzzle that respects your time! Every face arrives the <strong>same color</strong>, solved at the factory by our finest machines. Twist it all you like, citizen: victory is <strong>permanent!</strong>",
+      "specs": [
+        ["Functions", "0"],
+        ["Faces", "6, identical"],
+        ["Colors", "1"],
+        ["Completion rate", "100%, instantly"],
+        ["Possible configurations", "All of them correct"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "I have solved it forty thousand times without moving, citizen!"
+    },
+    {
+      "slug": "singular-jigsaw",
+      "name": "The Singular Jigsaw",
+      "price": 95,
+      "cat": "ironic",
+      "catName": "Ironic Simplicity",
+      "symbol": "d-singular-jigsaw",
+      "blurb": "One piece! 1000% completion in seconds! The moment you open it is the moment you have won!",
+      "description": "One piece! One <strong>glorious</strong> piece! Open the box and the picture is complete before your very eyes. Frame it at once, champion, for you have <strong>already won!</strong>",
+      "specs": [
+        ["Functions", "0"],
+        ["Pieces", "1"],
+        ["Assembly time", "0 seconds!"],
+        ["Completion", "1000%!"],
+        ["Edge pieces", "Also 1"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "The greatest puzzle, citizen, is <strong>no puzzle at all!</strong>"
+    },
+    {
+      "slug": "deck-of-agreement",
+      "name": "The Deck of Agreement",
+      "price": 140,
+      "cat": "ironic",
+      "catName": "Ironic Simplicity",
+      "symbol": "d-deck-of-agreement",
+      "blurb": "Fifty-two identical cards! Every hand a tie! No winners, no losers — civilization, perfected!",
+      "description": "Fifty-two cards, every one <strong>identical!</strong> Deal any game you please and watch every hand end in perfect, gentlemanly agreement. No winners! No losers! No arguments at the table, <strong>ever again!</strong>",
+      "specs": [
+        ["Functions", "0"],
+        ["Cards", "52, identical"],
+        ["Possible outcomes", "1 (a tie)"],
+        ["Winners per game", "0"],
+        ["Losers per game", "0"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "I played myself for a decade, citizen. We tied every hand. <strong>Civilization!</strong>"
+    },
+    {
+      "slug": "ceremonial-pen",
+      "name": "The Ceremonial Pen",
+      "price": 260,
+      "cat": "over",
+      "catName": "Overengineered",
+      "symbol": "d-ceremonial-pen",
+      "blurb": "A pen with a 47-step activation ritual! Leather-bound manual included! Bureaucracy you can hold!",
+      "description": "Writing, elevated to ritual! This magnificent instrument activates only upon completion of the <strong>47-step sequence</strong>, documented in the accompanying leather-bound manual. Bureaucracy has never felt so <strong>luxurious!</strong>",
+      "specs": [
+        ["Functions", "0"],
+        ["Activation steps", "47"],
+        ["Manual", "Leather-bound, 212 pages"],
+        ["Ink", "Ready, upon ceremony"],
+        ["Step 31", "Concerns the wrist"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "I completed the ritual once, citizen. I wept at <strong>step forty.</strong>"
+    },
+    {
+      "slug": "diurnal-nightlight",
+      "name": "The Diurnal Nightlight",
+      "price": 205,
+      "cat": "over",
+      "catName": "Overengineered",
+      "symbol": "d-diurnal-nightlight",
+      "blurb": "Illuminates — only in daylight! In darkness, it rests! Guidance offered when you can already see!",
+      "description": "The nightlight, perfected! Its advanced sensor illuminates <strong>exclusively during daylight hours</strong>, offering guidance precisely when you can already see. In darkness it rests, citizen, as all things should!",
+      "specs": [
+        ["Functions", "0"],
+        ["Illuminates", "Days only!"],
+        ["Darkness performance", "Total rest"],
+        ["Sensor", "Motion-activated, sun-loyal"],
+        ["Bulb life", "Eternal, by daylight"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "At noon, citizen, it shines like a <strong>champion!</strong>"
+    },
+    {
+      "slug": "retrospective-alarm",
+      "name": "The Retrospective Alarm",
+      "price": 290,
+      "cat": "over",
+      "catName": "Overengineered",
+      "symbol": "d-retrospective-alarm",
+      "blurb": "Wakes you to yesterday morning! It cannot make you late — yesterday has already forgiven you!",
+      "description": "Wake to the news of <strong>yesterday morning!</strong> This handsome alarm rings faithfully for a day that has already forgiven you. It cannot make you late, citizen. That is a <strong>scientific fact!</strong>",
+      "specs": [
+        ["Functions", "0"],
+        ["Alarms", "Yesterday's, faithfully"],
+        ["Snooze", "Unnecessary (it already happened)"],
+        ["Bell", "Mechanical, triumphant"],
+        ["Lateness risk", "0%"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "I rise every morning <strong>victorious</strong> over a day long past!"
+    },
+    {
+      "slug": "connected-stone",
+      "name": "The Connected Stone",
+      "price": 375,
+      "cat": "fake",
+      "catName": "Fake Luxury / Fake Tech",
+      "symbol": "d-connected-stone",
+      "blurb": "It pairs! It is a rock! Science's greatest triumph fits in your palm — and does nothing with it!",
+      "description": "At last! From beyond the void comes a stone that <strong>pairs</strong> with your device in <strong>seconds!</strong> Once paired, the companion application displays a single, glorious confirmation: <strong>“Yes. It’s a stone.”</strong> No firmware updates are planned. None are required! Own the rock that science could not improve!",
+      "specs": [
+        ["Functions", "0"],
+        ["Pairing time", "Seconds!"],
+        ["Companion app displays", "“Yes. It’s a stone.”"],
+        ["Firmware updates", "None planned. None required."],
+        ["Material", "Stone"],
+        ["Weight", "Reassuring"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "I carried this stone across <strong>three dimensions</strong>, citizen. It did nothing the entire way. <strong>Magnificent!</strong>"
+    },
+    {
+      "slug": "airplane-mode-router",
+      "name": "The Airplane-Mode Router",
+      "price": 330,
+      "cat": "fake",
+      "catName": "Fake Luxury / Fake Tech",
+      "symbol": "d-airplane-mode-router",
+      "blurb": "It blinks! It hums! Connected to nothing — and it will connect you to nothing, with total confidence!",
+      "description": "A router of tremendous presence! It blinks with authority! It hums with purpose! It is connected to <strong>absolutely nothing</strong>, and it will connect you to nothing, with the quiet confidence of the modern age!",
+      "specs": [
+        ["Functions", "0"],
+        ["Antennae", "4, decorative"],
+        ["Diodes", "12, blinking proudly"],
+        ["Networks detected", "None. None sought."],
+        ["Signal range", "Unlimited (no signal)"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "The strongest connection, citizen, is <strong>none at all!</strong>"
+    },
+    {
+      "slug": "still-hot-mug",
+      "name": "The Still-Hot Mug",
+      "price": 155,
+      "cat": "fake",
+      "catName": "Fake Luxury / Fake Tech",
+      "symbol": "d-still-hot-mug",
+      "blurb": "The mug that knows! Its display reads STILL HOT — always! Not always right. Always certain!",
+      "description": "The intelligent vessel with a single conviction! Regardless of temperature, contents, or the march of time, its display proclaims <strong>STILL HOT</strong>. It is not always correct, citizen. It is <strong>always certain!</strong>",
+      "specs": [
+        ["Functions", "0"],
+        ["Sensors", "1"],
+        ["Messages", "1 (STILL HOT)"],
+        ["Accuracy", "Occasional"],
+        ["Certainty", "Total!"],
+        ["Point of origin", "The edge of the observable universe"],
+        ["Certificate no.", "0000-000-000"]
+      ],
+      "quote": "Certainty, citizen! The rarest brew of all!"
+    }
+  ]
+}
